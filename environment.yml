@@ -49,4 +49,6 @@ dependencies:
   - ipykernel
   - xeus-python
   - ipympl
+  - cftime
+  - regionmask
   - pip
