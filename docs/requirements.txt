@@ -1,0 +1,4 @@
+sphinx>=2.4
+recommonmark
+sphinx-typlog-theme
+
