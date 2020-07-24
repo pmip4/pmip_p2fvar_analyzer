@@ -1,4 +1,4 @@
-name: uclgeog
+name: PMIP4_p2f
 channels:
   - conda-forge
   - defaults
