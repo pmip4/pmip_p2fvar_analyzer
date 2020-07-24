@@ -16,26 +16,27 @@ function hasvars {
 }  
 
 #set up some paths and aliases
-CVDP_DATA_DIR="/home/p2f-v/public_html/PMIPVarData/cvdp_data"
+CVDP_DATA_DIR="/home/p2f-v/public_html/PMIPVarData/cvdp_data_PMIP4"
 REPO_DATA_DIR=`pwd`"/../data" #relative to here
 anmn_vars="pr_spatialmean_ann,tas_spatialmean_ann"
 seas_vars="pr_spatialmean_djf,pr_spatialmean_jja,tas_spatialmean_djf,tas_spatialmean_jja"
 
 #Collect all the relevant data from the files
 cd $CVDP_DATA_DIR
-ncfiles=`ls *{piControl,midHolocene-cal-adj,midHolocene}.cvdp_data.*-*.nc`
+ncfiles=`ls *_*.cvdp_data.*-*.nc`
 echo $ncfiles
 cd $REPO_DATA_DIR
-mkdir -p piControl midHolocene-cal-adj midHolocene
-for ncfile in $ncfiles
+for ncfile in $ncfiles 
 do
   echo working on $ncfile
-  sub_dir=`echo $ncfile | cut -d. -f1 | cut -d_ -f1`
+  sub_dir=`echo $ncfile | cut -d. -f1 | cut -d_ -f2`
+  mkdir -p $sub_dir
   hasvars $CVDP_DATA_DIR $ncfile
   if [ $? == 1 ]; then
     if [[ $sub_dir == *"midHolocene"* ]]  || [[ $sub_dir == *"lgm"* ]] || [[ $sub_dir == *"lig127k"* ]]
     then
       if [[ $sub_dir == *"cal-adj"* ]]
+      then
         ncks -O -v $seas_vars $CVDP_DATA_DIR/$ncfile $sub_dir/$ncfile
       else
         ncks -O -v $anmn_vars $CVDP_DATA_DIR/$ncfile $sub_dir/$ncfile
@@ -47,11 +48,7 @@ do
   fi
 done
 
-#plus a couple of obs datasets
-ncks -O -v $anmn_vars /home/p2f-v/public_html/CVDP/C20-Reanal-EI/output/C20-Reanal-EI.cvdp_data.1871-2012.nc C20-Reanalysis.cvdp_data.1871-1900.nc
-ncks -A -v $seas_vars /home/p2f-v/public_html/CVDP/C20-Reanal-EI/output/C20-Reanal-EI.cvdp_data.1871-2012.nc C20-Reanalysis.cvdp_data.1871-1900.nc
-
 #make a .tar.gz archive
-# rm PMIP4_midHolocence_cvdp_data.tar.gz
-#tar -czf PMIP4_midHolocence_cvdp_data.tar.gz */*.cvdp_data.*-*.nc C20-Reanalysis.cvdp_data.1871-2012.nc GPCP.cvdp_data.1979-2019.nc
-#cp PMIP4_midHolocence_cvdp_data.tar.gz ~/public_html/PMIPVarData/data/PMIP4_midHolocence_cvdp_data.tar.gz
+rm PMIP4_tas_pr_data.tar.gz
+tar -czf PMIP4_tas_pr_data.tar.gz */*.cvdp_data.*-*.nc
+cp PMIP4_tas_pr_data.tar.gz ~/public_html/PMIPVarData/data/PMIP4_tas_pr_data.tar.gz
