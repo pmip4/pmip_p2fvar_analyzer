@@ -51,4 +51,5 @@ dependencies:
   - ipympl
   - cftime
   - regionmask
+  - xesmf
   - pip
