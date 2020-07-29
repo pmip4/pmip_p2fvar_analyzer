@@ -52,4 +52,5 @@ dependencies:
   - cftime
   - regionmask
   - xesmf
+  - xlrd
   - pip
