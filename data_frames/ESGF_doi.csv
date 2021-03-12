@@ -1,0 +1,43 @@
+Simulated Temperature Changes,Genre,ECS,piControl,midHolocene,lgm,lig127k,midPliocene,abrupt4xCO2,1pctCO2,,,,,,,,model,midHolocene,piControl
+ACCESS-ESM1-5,CMIP6,3.9,https://doi.org/10.22033/ESGF/CMIP6.4312,,,https://doi.org/10.22033/ESGF/CMIP6.13703,,https://doi.org/10.22033/ESGF/CMIP6.4238,https://doi.org/10.22033/ESGF/CMIP6.4231,,,,,,,,AWI-ESM-1-1-LR,,https://doi.org/10.22033/ESGF/CMIP6.9335
+AWI-ESM-2-1-LR,CMIP6,3.6,N/A,,,N/A,,,,,,,,,,,CESM2,,https://doi.org/10.22033/ESGF/CMIP6.7733
+AWI-ESM-1-1-LR,CMIP6,3.6,https://doi.org/10.22033/ESGF/CMIP6.9335,https://doi.org/10.22033/ESGF/CMIP6.9332,https://doi.org/10.22033/ESGF/CMIP6.9330,https://doi.org/10.22033/ESGF/CMIP6.9331,,,https://doi.org/10.22033/ESGF/CMIP6.2543,,,,,,,,EC-Earth3-LR,,https://doi.org/10.22033/ESGF/CMIP6.4801
+CESM2,CMIP6,5.3,https://doi.org/10.22033/ESGF/CMIP6.7733,https://doi.org/10.22033/ESGF/CMIP6.7674,,https://doi.org/10.22033/ESGF/CMIP6.7673,https://doi.org/10.22033/ESGF/CMIP6.7675,https://doi.org/10.22033/ESGF/CMIP6.7519,https://doi.org/10.22033/ESGF/CMIP6.7497,,,,,,,,FGOALS-f3-L,,https://doi.org/10.22033/ESGF/CMIP6.3447
+CNRM-CM6-1,CMIP6,5.1,https://doi.org/10.22033/ESGF/CMIP6.4163,,,https://doi.org/10.22033/ESGF/CMIP6.4118,,https://doi.org/10.22033/ESGF/CMIP6.3916,https://doi.org/10.22033/ESGF/CMIP6.3712,,,,,,,,FGOALS-g3,,https://doi.org/10.22033/ESGF/CMIP6.3448
+EC-Earth3-LR,CMIP6,4.3,https://doi.org/10.22033/ESGF/CMIP6.4847,https://doi.org/10.22033/ESGF/CMIP6.4847,,https://doi.org/10.22033/ESGF/CMIP6.4798,https://doi.org/10.22033/ESGF/CMIP6.4804,,https://doi.org/10.22033/ESGF/CMIP6.4513,,,,,,,,GISS-E2-1-G,, https://doi.org/10.22033/ESGF/CMIP6.7380
+FGOALS-f3-L,CMIP6,3,https://doi.org/10.22033/ESGF/CMIP6.3447,https://doi.org/10.22033/ESGF/CMIP6.12014,,https://doi.org/10.22033/ESGF/CMIP6.12013,,https://doi.org/10.22033/ESGF/CMIP6.3176,https://doi.org/10.22033/ESGF/CMIP6.3054,,,,,,,,HadGEM3-GC31-LL,N/A,https://doi.org/10.22033/ESGF/CMIP6.6294 
+FGOALS-g3,CMIP6,2.9,https://doi.org/10.22033/ESGF/CMIP6.3448,https://doi.org/10.22033/ESGF/CMIP6.3409,,https://doi.org/10.22033/ESGF/CMIP6.3407,,https://doi.org/10.22033/ESGF/CMIP6.3177,https://doi.org/10.22033/ESGF/CMIP6.3055,,,,,,,,INM-CM4-8,,https://doi.org/10.22033/ESGF/CMIP6.5080 
+GISS-E2-1-G,CMIP6,2.7,https://doi.org/10.22033/ESGF/CMIP6.7380,https://doi.org/10.22033/ESGF/CMIP6.7225,,https://doi.org/10.22033/ESGF/CMIP6.7223,https://doi.org/10.22033/ESGF/CMIP6.7227,https://doi.org/10.22033/ESGF/CMIP6.6976,https://doi.org/10.22033/ESGF/CMIP6.6950,,,,,,,,IPSL-CM6A-LR,,https://doi.org/10.22033/ESGF/CMIP6.5251
+HadGEM3-GC31-LL,CMIP6,5.4,https://doi.org/10.22033/ESGF/CMIP6.6294,https://doi.org/10.22033/ESGF/CMIP6.12129,,https://doi.org/10.22033/ESGF/CMIP6.12128,https://doi.org/10.22033/ESGF/CMIP6.12130,https://doi.org/10.22033/ESGF/CMIP6.5839,https://doi.org/10.22033/ESGF/CMIP6.5788,,,,,,,,MIROC-ES2L,,https://doi.org/10.22033/ESGF/CMIP6.5710
+INM-CM4-8,CMIP6,2.1,https://doi.org/10.22033/ESGF/CMIP6.5080,https://doi.org/10.22033/ESGF/CMIP6.5077,https://doi.org/10.22033/ESGF/CMIP6.5075,https://doi.org/10.22033/ESGF/CMIP6.5076,,https://doi.org/10.22033/ESGF/CMIP6.4931,https://doi.org/10.22033/ESGF/CMIP6.4928,,,,,,,,MRI-ESM2,,https://doi.org/10.22033/ESGF/CMIP6.6900
+IPSL-CM6A-LR,CMIP6,4.5,https://doi.org/10.22033/ESGF/CMIP6.5251,https://doi.org/10.22033/ESGF/CMIP6.5229,,https://doi.org/10.22033/ESGF/CMIP6.5228,https://doi.org/10.22033/ESGF/CMIP6.5230,https://doi.org/10.22033/ESGF/CMIP6.5109,https://doi.org/10.22033/ESGF/CMIP6.5049,,,,,,,,NESM3,,https://doi.org/10.22033/ESGF/CMIP6.8776
+MIROC-ES2L,CMIP6,2.7,https://doi.org/10.22033/ESGF/CMIP6.5710,https://doi.org/10.22033/ESGF/CMIP6.5646,https://doi.org/10.22033/ESGF/CMIP6.5644,https://doi.org/10.22033/ESGF/CMIP6.5645,,https://doi.org/10.22033/ESGF/CMIP6.5410,https://doi.org/10.22033/ESGF/CMIP6.5370,,,,,,,,NorESM1-F,,https://doi.org/10.22033/ESGF/CMIP6.11595
+MPI-ESM1-2-LR,CMIP6,2.8,https://doi.org/10.22033/ESGF/CMIP6.6675,https://doi.org/10.22033/ESGF/CMIP6.6644,https://doi.org/10.22033/ESGF/CMIP6.6642,N/A,,https://doi.org/10.22033/ESGF/CMIP6.6459,https://doi.org/10.22033/ESGF/CMIP6.6435,,,,,,,,NorESM2-LM,,https://doi.org/10.22033/ESGF/CMIP6.8217
+MRI-ESM2-0,CMIP6,3.1,https://doi.org/10.22033/ESGF/CMIP6.6900,https://doi.org/10.22033/ESGF/CMIP6.6860 ,,,,https://doi.org/10.22033/ESGF/CMIP6.6755,https://doi.org/10.22033/ESGF/CMIP6.5356,,,,,,,,UofT-CCSM-4,,N/A\\
+NESM3,CMIP6,3.7,https://doi.org/10.22033/ESGF/CMIP6.8776,https://doi.org/10.22033/ESGF/CMIP6.8773 ,,https://doi.org/10.22033/ESGF/CMIP6.8772,,https://doi.org/10.22033/ESGF/CMIP6.8719,https://doi.org/10.22033/ESGF/CMIP6.8709,,,,,,,,bcc-csm1-1,,http://doi.org/10.1594/WDCC/CMIP5.BCB1pc
+NorESM1-F,PMIP4,2.3,https://doi.org/10.22033/ESGF/CMIP6.11595,https://doi.org/10.22033/ESGF/CMIP6.11591 ,,https://doi.org/10.22033/ESGF/CMIP6.11590,https://doi.org/10.22033/ESGF/CMIP6.11592,,,,,,,,,,CCSM4,,http://doi.org/10.1594/WDCC/CMIP5.NRS4pc
+NorESM2-LM,CMIP6,2.5,https://doi.org/10.22033/ESGF/CMIP6.8217,https://doi.org/10.22033/ESGF/CMIP6.8079,,https://doi.org/10.22033/ESGF/CMIP6.8078,,https://doi.org/10.22033/ESGF/CMIP6.7836,https://doi.org/10.22033/ESGF/CMIP6.13724,,,,,,,,CNRM-CM5,,http://doi.org/10.1594/WDCC/CMIP5.CEC5pc
+UofT-CCSM-4 ,PMIP4,3.2,N/A,N/A,N/A,,N/A,,,,,,,,,,CSIRO-MK3-6-0,,http://doi.org/10.1594/WDCC/CMIP5.CQMKpc
+BCC-CSM1-1,CMIP5,3.1,http://doi.org/10.1594/WDCC/CMIP5.BCB1pc,http://doi.org/10.1594/WDCC/CMIP5.BCB1mh ,,,http://doi.org/10.1594/WDCC/CMIP5.BCB1c1,http://doi.org/10.1594/WDCC/CMIP5.BCB1c2,,,,,,,,,CSIRO-MK3L-1-2,,N/A\\
+CCSM4,CMIP5,2.9,http://doi.org/10.1594/WDCC/CMIP5.NRS4pc,http://doi.org/10.1594/WDCC/CMIP5.NRS4mh ,http://doi.org/10.1594/WDCC/CMIP5.NRS4lg,,http://doi.org/10.1594/WDCC/CMIP5.NRS4c1,http://doi.org/10.1594/WDCC/CMIP5.NRS4c2,,,,,,,,,EC-Earth-2-2& N/A,N/A\\,
+CNRM-CM5,CMIP5,3.3,http://doi.org/10.1594/WDCC/CMIP5.CEC5pc,http://doi.org/10.1594/WDCC/CMIP5.CEC5mh ,http://doi.org/10.1594/WDCC/CMIP5.CEC5lg,,http://doi.org/10.1594/WDCC/CMIP5.CEC5c1,http://doi.org/10.1594/WDCC/CMIP5.CEC5c2,,,,,,,,,FGOALS-G2,,
+CSIRO-Mk3-6-0,CMIP5,4.1,http://doi.org/10.1594/WDCC/CMIP5.CQMKpc,http://doi.org/10.1594/WDCC/CMIP5.CQMKmh ,,,http://doi.org/10.1594/WDCC/CMIP5.CQMKc1,http://doi.org/10.1594/WDCC/CMIP5.CQMKc2,,,,,,,,,FGOALS-S2,,
+CSIRO-Mk3L-1-2,PMIP3,3.1,N/A,N/A,,,,,,,,,,,,,GISS-E2-R,,
+EC-EARTH-2-2,CMIP5,4.2,N/A,N/A,,,,,,,,,,,,,HadGEM2-CC,,
+FGOALS-g2,CMIP5,3.7,http://doi.org/10.1594/WDCC/CMIP5.LSF2pc,http://doi.org/10.1594/WDCC/CMIP5.LSF2mh ,http://doi.org/10.1594/WDCC/CMIP5.LSF2lg,,http://doi.org/10.1594/WDCC/CMIP5.LSF2c1,http://doi.org/10.1594/WDCC/CMIP5.LSF2c2,,,,,,,,,HadGEM2-ES,,
+FGOALS-s2,CMIP5,4.5,http://doi.org/10.1594/WDCC/CMIP5.LIFSpc,http://doi.org/10.1594/WDCC/CMIP5.LIFSmh ,,,http://doi.org/10.1594/WDCC/CMIP5.LIFSc1,http://doi.org/10.1594/WDCC/CMIP5.LIFSc2,,,,,,,,,IPSL-CM5A-LR,,
+GISS-E2-R,CMIP5,2.1,http://doi.org/10.1594/WDCC/CMIP5.GIGRpc,http://doi.org/10.1594/WDCC/CMIP5.GIGRmh ,http://doi.org/10.1594/WDCC/CMIP5.GIGRlg,,http://doi.org/10.1594/WDCC/CMIP5.GIGRc1,http://doi.org/10.1594/WDCC/CMIP5.GIGRc2,,,,,,,,,MIROC-ESM,,
+HadGEM2-CC,CMIP5,4.5,http://doi.org/10.1594/WDCC/CMIP5.MOGCpc,http://doi.org/10.1594/WDCC/CMIP5.MOGCmh,,,,,,,,,,,,,MPI-ESM-P,,
+HadGEM2-ES,CMIP5,4.6,http://doi.org/10.1594/WDCC/CMIP5.MOGEpc,http://doi.org/10.1594/WDCC/CMIP5.MOGEmh,,,http://doi.org/10.1594/WDCC/CMIP5.MOGEc1,http://doi.org/10.1594/WDCC/CMIP5.MOGEc2,,,,,,,,,MRI-CGCM3,,
+IPSL-CM5A-LR,CMIP5,4.1,http://doi.org/10.1594/WDCC/CMIP5.IPILpc,http://doi.org/10.1594/WDCC/CMIP5.IPILmh ,http://doi.org/10.1594/WDCC/CMIP5.IPILlg,,http://doi.org/10.1594/WDCC/CMIP5.IPILc1,http://doi.org/10.1594/WDCC/CMIP5.IPILc2,,,,,,,,,,,
+MIROC-ESM,CMIP5,4.7,http://doi.org/10.1594/WDCC/CMIP5.MIMEpc,http://doi.org/10.1594/WDCC/CMIP5.MIMEmh ,http://doi.org/10.1594/WDCC/CMIP5.MIMElg,,http://doi.org/10.1594/WDCC/CMIP5.MIMEc1,http://doi.org/10.1594/WDCC/CMIP5.MIMEc2,,,,,,,,,,,
+MPI-ESM-P,CMIP5,3.5,http://doi.org/10.1594/WDCC/CMIP5.MXEPpc,http://doi.org/10.1594/WDCC/CMIP5.MXEPmh ,http://doi.org/10.1594/WDCC/CMIP5.MXEPlg,,http://doi.org/10.1594/WDCC/CMIP5.MXEPc1,http://doi.org/10.1594/WDCC/CMIP5.MXEPc2,,,,,,,,,,,
+MRI-CGCM3,CMIP5,2.6,http://doi.org/10.1594/WDCC/CMIP5.MRMCpc,http://doi.org/10.1594/WDCC/CMIP5.MRMCmh ,http://doi.org/10.1594/WDCC/CMIP5.MRMClg,,http://doi.org/10.1594/WDCC/CMIP5.MRMCc1,http://doi.org/10.1594/WDCC/CMIP5.MRMCc2,,,,,,,,,,,
+CCSM4-Utrecht,PMIP4,3.2,N/A,,,,N/A,,,,,,,,,,,,
+CESM1.2,PMIP4,4.1,N/A,,,,N/A,,,,,,,,,,,,
+COSMOS-ASO,PMIP3,4.7,N/A,,N/A,,N/A,,,,,,,,,,,,
+HadCM3,PMIP3,3.5,N/A,,,,N/A,,,,,,,,,,,,
+IPSLCM5A2,PMIP4,3.6,N/A,,,,N/A,,,,,,,,,,,,
+MIROC4m,PMIP3,3.9,N/A,,,,N/A,,,,,,,,,,,,
+MRI-CGCM2.3,PMIP3,2.8,N/A,,,,N/A,,,,,,,,,,,,
+NorESM-L,PMIP3,3.1,N/A,,,,N/A,,,,,,,,,,,,
