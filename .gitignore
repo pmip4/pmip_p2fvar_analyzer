@@ -138,3 +138,5 @@ dmypy.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
+# Adding in .nc files - this will mean that any files created by the untarring of the bundled data are ignored.
+.nc

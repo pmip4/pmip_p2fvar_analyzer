@@ -42,9 +42,11 @@ dependencies:
   - nbformat
   - pandoc
   - nco
+  - ncl
   - pyephem
   - libnetcdf
   - git
+  - git-lfs
   - sphinx
   - ipykernel
   - xeus-python
