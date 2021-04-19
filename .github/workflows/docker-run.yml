@@ -16,7 +16,4 @@ jobs:
         password: "${{ secrets.DOCKERHUB_PASSWORD }}"  
         image_name: pmip4_past2future
         push_image_and_stages: false
-#    - name: Build the Docker image
-#      run: docker build . --file Dockerfile --tag geog:$(date +%s)
-      
-
+    

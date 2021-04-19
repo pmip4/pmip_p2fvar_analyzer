@@ -2,7 +2,7 @@
 FROM jupyter/minimal-notebook:latest
 
 # name your environment
-ARG conda_env=PMIP4_p2f
+ARG conda_env=pmip4_past2future
 
 # alternatively, you can comment out the lines above and uncomment those below
 # if you'd prefer to use a YAML file present in the docker build context
@@ -62,6 +62,21 @@ RUN jupyter labextension install nbdime-jupyterlab --no-build && \
         rm -rf $HOME/.local && \
     fix-permissions $CONDA_DIR $HOME
 
-RUN mkdir -p $HOME/notebooks
+# copy over the contents of the repository
+RUN mkdir -p $HOME/notebooks $HOME/bin $HOME/data_frames $HOME/data_netcdf $HOME/ncl_scripts $HOME/ncl_output
 COPY notebooks/* $HOME/notebooks/
+COPY bin/* $HOME/bin/
+COPY data_frames/ESGF_doi.csv $HOME/data_frames/
+COPY data_netcdf/*tar.gz $HOME/data_netcdf/
+COPY ncl_scripts/* $HOME/ncl_scripts/
+RUN mkdir -p $HOME/data_frames/AR5_regions  $HOME/data_frames/climate_modes  $HOME/data_frames/common_measures  $HOME/data_frames/monsoon_domains  $HOME/data_frames/tempchange_latbands
+COPY data_frames/AR5_regions/*.csv $HOME/data_frames/AR5_regions/
+COPY data_frames/climate_modes/*.csv $HOME/data_frames/climate_modes/
+COPY data_frames/common_measures/*.csv $HOME/data_frames/common_measures/
+COPY data_frames/monsoon_domains/*.csv $HOME/data_frames/monsoon_domains/
+COPY data_frames/tempchange_latbands/*.csv $HOME/data_frames/tempchange_latbands/
+
+# setting juypter to run without needing to grab the token too
+ENV JUPYTER_TOKEN='easy'
+
 RUN jupyter trust notebooks/*ipynb 
