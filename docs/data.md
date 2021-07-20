@@ -5,7 +5,9 @@ This repository contains two kinds of data. There are files resulting from runni
 ## Data Frames
 
 These spreadsheets are in comma separated value format. They can be downloaded and read in using software such as Excel. To read into Python, you can use pandas
+
 > import pandas as pd
+
 > df = pd.read_csv('file.csv') 
 
 The file called `ESGF_doi.csv` contains the digital object identifiers for every simulation on the Earth System Grid Federation. Ideally, these should be cited by every paper using the simulation data and hopefully collating them here  makes this easier. 
@@ -33,15 +35,26 @@ The modes defined by principal compenents are summarised by the spatial standard
 ### monsoon_domains
 Interannual time series of the areal extent and area-averaged rainfall of the global monsoon domain, as well as each of the 7 regional monsoon domains were computed for each simulation. The means and standard deviation of each time series are collated into various spreadsheets. The 7 regional monsoon domains are abbreviated as:
 
-| Acronym | Domain |
-| ------- | ------ |
-| AUSMC | Australian and the Maritime Continent |
-| EAS | Eastern Asia |
-| NAF | Northern Africa |
-| NAMS | North America Monsoon System |
-| SAF | Southern Africa |
-| SAMS | South America Monsoon System |
-| SAS | Southern Asia |
+.. list-table:: Regional Monsoon Domains
+   :widths: 50 50
+   :header-rows: 1
+   
+   * - Acronym 
+     - Domain
+   * - AUSMC
+     - Australian and the Maritime Continent
+   * - EAS
+     - Eastern Asia
+   * - NAF
+     - Northern Africa
+   * - NAMS
+     - North America Monsoon System
+   * - SAF
+     - Southern Africa
+   * - SAMS
+     - South America Monsoon System
+   * - SAS
+     - Southern Asia
 
 ### AR5_Regions
 The means and standards of monthly resolution area-averaged time series for every region used in IPCC Assessment Report 5. See <http://www.ipcc-data.org/guidelines/pages/ar5_regions.html> for definitions of the regions and explanations of their abbreviations.
