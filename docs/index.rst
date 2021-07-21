@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Customising UCL Gegraphy Docker Images
+The PMIP Analyzer by the Past2Future Variability Working Group
 =====================================================
 
 .. toctree::
@@ -11,7 +11,8 @@ Customising UCL Gegraphy Docker Images
    :caption: Contents:
 
    introduction.md
-   package_selection.md
-   building_image.md
-   extras.md
+   python_tools.md
+   ncl.md
+   data.md
+   running_with_docker.md
 
