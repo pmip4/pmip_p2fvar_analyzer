@@ -1,89 +1,46 @@
 # Step by step instructions to use this repository
 
-## Get a GitHub account
+## Using as a data source
 
-You probably have one, but if not... Go ahead and get one. 
+We would prefer it if you sign into GitHub and fork the repository. This allows us to know who has used the data for our own interest. We can then also invite you to join the PMIP4 organization on GitHub as a research collaborator. To fork a repository, go to the [github page](https://github.com/pmip4/pmip_p2fvar_analyzer) of this repository, and click on the **Fork** icon.
 
-## Fork the repository
+![Fork button](fork.png)
+ 
 
-Go to the [github page](https://github.com/UCL-EO/geog_docker) of this repository, and click on the **Fork** icon.
+You should also just be able to download the individual files from GitHub directly. If the CSV files do not show a download link, you may need to copy and paste the text of the file instead.  
+
+## Using as a code and data source
+
+You can download all the code and data as a single zipped archive from GitHub. 
+
+We would prefer it if you sign into GitHub and fork the repository. This allows us to know who has used the data for our own interest. We can then also invite you to join the PMIP4 organization on GitHub as a research collaborator. To fork a repository, go to the [github page](https://github.com/pmip4/pmip_p2fvar_analyzer) of this repository, and click on the **Fork** icon.
 
 ![Fork button](fork.png)
 
-## Setting up the credentials for Docker builds
+## Using as a interactive application via Docker
 
-### Get a Docker account
+### Install Docker on your machine
 
-Go to [Docker Hub](https://hub.docker.com/) and get yourself an account.
+Docker is a piece of software that allow you to run individual applications in their own little container. This means that you can run Linux code, such as this repository, on a Windows or Mac machine. If you are running in a Linux cluster already, you can use the command line version of Docker. 
 
-You'll need the username and password to allow GitHub to upload (i.e. *push*) your images to docker hub.
+It is somewhat easier to use [Docker Desktop](https://www.docker.com/products/docker-desktop). This is graphical application that allows you to run peice of software (called images) by pointing and clicking. You may want to peruse the [Docker documentation](https://docs.docker.com/get-started/).
 
-### Linking Docker hub and github
+### Run the Docker Image
 
-We need to connect the hubs. On the forked repository, go to the **"Settings"** tab, and then on to the tab that reads **"Secrets"**
+Firstly, you will need to download the _image_ of the software from [Docker Hub](https://hub.docker.com/r/chrisbrierley/testing-pmip4_past2future). You can do this using following command 
 
-![Secrets tab](secrets.png)
+> docker pull chrisbrierley/testing-pmip4_past2future
 
+Secondly you need to run this docker image. You can do this by just pressing the `Run` button next to the image listing in Docker Desktop. You also need to set up some port-forwarding to allow the Jupyter Notebook talk to your browser...
 
-You need to create two variables `DOCKERHUB_USERNAME` and `DOCKERHUB_PASSWORD`, which will store your username and password in [hub.docker.com](https://hub.docker.com/). 
+![Port Forwarding](add_port_forwarding_to_docker.png)
 
-![Secret variables](secrets2.png)
+### Access the Jupyter Server (for Python)
 
-## Modifying the image itself
+By starting the docker image, you have actually started to run a Jupyter server on your machine. This comes installed with the data and series of sensible python packages. You can see which packages exist by looking at the [environment.yml](https://github.com/pmip4/pmip_p2fvar_analyzer/blob/master/environment.yml) file, which determines the contents of the conda environment.
 
-### Clone your forked repository
+You then need to navigate to your browser. Navigate to [http://127.0.0.1:8888/lab?token=easy](http://127.0.0.1:8888/lab?token=easy) (if it asks for a password use "easy"). This will then show a directory tree of the repository. Please then navigate the python notebook you want to interact with.
 
-You can do this on the command line using
+### Access the terminal (for NCL)
 
-```
-   git clone  git@github.com:jgomezdans/geog_docker.git
-```
-
-(change that github address to that of your fork). You can then edit the files locally.
-
-### Changing packages
-
-You can edit the `environment.yml` file to change the packages you want installed.
-
-### Adding content
-
-You can also add notebooks by dropping them in the `notebooks` folder. They will be copied to the Docker image. You may also want to add Python code files here, although it may be better to pack this as individual Python packages that can be pip-installed.
-
-You can just copy the files to the folder, and then add them to the repository using e.g.
-
-```
-git add notebooks/*.ipynb
-```
-
-### Test locally
-
-You can use the local dockerfile to build the image locally, and test that it meets your requirements. You may want to peruse the [Docker documentation](https://docs.docker.com/get-started/).
-
-### Commit your changes
-
-Before uploading your changes to github, we have to *commit* them.
-
-```
-git commit -a
-```
-
-This will launch a text editor to allow you to document your changes
-
-### Push to github
-
-```
-git push origin master
-```
-
-This will upload your commited changes to github, and will start building a docker file.
-
-### Check the build was succesful
-
-Go to github, and check the "Actions" tab. There you can see that your image is building (it takes a while, some 15-20 minutes), and whether it's succeeded or not. If it doesn't succeed, you can see what part of the process failed.
-
-## Making a release
-
-Once you're happy with things, you can make a release, and share the Docker image with the rest of the world. On the github page, click on Releases and make a new release (you can tag it with a version number e.g. `v1.0` or something like that), and write some blurb. Once that is done, the system will build the image and push it to Docker hub to be used by everyone.
-
-
-
+By starting the docker image, you have actually started to run virtual machine. You can then navigate to its terminal and use NCL in its normal fashion.
