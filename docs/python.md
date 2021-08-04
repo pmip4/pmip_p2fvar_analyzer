@@ -5,10 +5,10 @@ Python scripts ahave been written as notebooks. The choice of notebooks allows d
 Currently, we provide five notebooks, with detailed documentations available in the script:
 - [EnsembleMean_AnnualMean_SurfTempChange.ipynb](https://github.com/pmip4/pmip_p2fvar_analyzer/blob/master/notebooks/EnsembleMean_AnnualMean_SurfTempChange.ipynb)
    This notebooks includes the functions to do ensemble analysis, and plot the resutls as spatial maps.
-- [ensemble(mean)_TempPrecip(change)_more_options.ipynb]
+- [ensemble(mean)_TempPrecip(change)_more_options.ipynb](https://github.com/pmip4/pmip_p2fvar_analyzer/blob/master/notebooks/ensemble(mean)_TempPrecip(change)_more_options.ipynb)
    This notebooks is similar to `EnsembleMean_AnnualMean_SurfTempChange.ipynb`, but having more options.
 - [ensemblemean_monsoon_domian.ipynb](https://github.com/pmip4/pmip_p2fvar_analyzer/blob/master/notebooks/ensemblemean_monsoon_domian.ipynb)
-   This notebook contains the process of producing Figure 5 in [Brierley et al. (2020)](https://cp.copernicus.org/articles/16/1847/2020/)
+   This notebook contains the process of producing Figure 5 of [Brierley et al. (2020)](https://cp.copernicus.org/articles/16/1847/2020/)
 - [ensemble_line_scatter_plot_regionalmonsoon_seaice.ipynb](https://github.com/pmip4/pmip_p2fvar_analyzer/blob/master/notebooks/ensemble_line_scatter_plot_regionalmonsoon_seaice.ipynb)
    This notebooks contains the process of producing Figures 6, 7 and 8 in Zhao et al. (2021).
 - [Ensemble_mean_changes_in_AMOC.ipynb](https://github.com/pmip4/pmip_p2fvar_analyzer/blob/master/notebooks/Ensemble_mean_changes_in_AMOC.ipynb)
