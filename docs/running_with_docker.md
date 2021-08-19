@@ -11,7 +11,7 @@ You should also just be able to download the individual files from GitHub direct
 
 ## Using as a code and data source
 
-You can download all the code and data as a single zipped archive from GitHub. 
+You can download all the code and a sample of data as a single zipped archive from GitHub. 
 
 We would prefer it if you sign into GitHub and fork the repository. This allows us to know who has used the data for our own interest. We can then also invite you to join the PMIP4 organization on GitHub as a research collaborator. To fork a repository, go to the [github page](https://github.com/pmip4/pmip_p2fvar_analyzer) of this repository, and click on the **Fork** icon.
 
@@ -39,7 +39,7 @@ Secondly you need to run this docker image. You can do this by just pressing the
 
 By starting the docker image, you have actually started to run a Jupyter server on your machine. This comes installed with the data and series of sensible python packages. You can see which packages exist by looking at the [environment.yml](https://github.com/pmip4/pmip_p2fvar_analyzer/blob/master/environment.yml) file, which determines the contents of the conda environment.
 
-You then need to navigate to your browser. Navigate to [http://127.0.0.1:8888/lab?token=easy](http://127.0.0.1:8888/lab?token=easy) (if it asks for a password use "easy"). This will then show a directory tree of the repository. Please then navigate the python notebook you want to interact with.
+You then need to navigate to your browser. Navigate to [http://127.0.0.1:8888/lab?token=PMIP](http://127.0.0.1:8888/lab?token=PMIP). The "token2 here is used a little like a password and is pre-defined as `PMIP`. This will then show a directory tree of the repository. Please then navigate the python notebook you want to interact with.
 
 ### Access the terminal (for NCL)
 
