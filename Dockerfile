@@ -77,6 +77,6 @@ COPY data_frames/monsoon_domains/*.csv $HOME/data_frames/monsoon_domains/
 COPY data_frames/tempchange_latbands/*.csv $HOME/data_frames/tempchange_latbands/
 
 # setting juypter to run without needing to grab the token too
-ENV JUPYTER_TOKEN='easy'
+ENV JUPYTER_TOKEN='PMIP'
 
 RUN jupyter trust notebooks/*ipynb 
