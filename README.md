@@ -11,4 +11,6 @@ You are welcome to use this resource as a repository of summary data, and downlo
 
 We have invested some effort into making this resource be more than just place to hold data and code, but to also become a research tool in itself. You can download a docker image of this whole repository. This image not includes the code and data, but also bundles in all the required software needed to interact visually with the data through Jupyter and create your own plots of the data.
 
-The docker image is available from [Docker Hub](https://hub.docker.com/r/chrisbrierley/testing-pmip4_past2future).
+The docker image is available from [Docker Hub](https://hub.docker.com/r/chrisbrierley/testing-pmip4_past2future). 
+
+[![DOI](https://zenodo.org/badge/380010629.svg)](https://zenodo.org/badge/latestdoi/380010629)
