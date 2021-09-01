@@ -27,9 +27,9 @@ It is somewhat easier to use [Docker Desktop](https://www.docker.com/products/do
 
 ### Run the Docker Image
 
-Firstly, you will need to download the _image_ of the software from [Docker Hub](https://hub.docker.com/r/chrisbrierley/testing-pmip4_past2future). You can do this using following command 
+Firstly, you will need to download the _image_ of the software from [Docker Hub](https://hub.docker.com/repository/docker/chrisbrierley/pmip-p2fvar-analyzer). You can do this using following command 
 
-> docker pull chrisbrierley/testing-pmip4_past2future
+> docker pull chrisbrierley/pmip-p2fvar-analyzer:latest
 
 Secondly you need to run this docker image. You can do this by just pressing the `Run` button next to the image listing in Docker Desktop. You also need to set up some port-forwarding to allow the Jupyter Notebook talk to your browser...
 
