@@ -1,6 +1,6 @@
 # PMIP4 past2future analyzer 
 
-This repository contains materials to lower the entry barriers to analyzing climate model simulations created for the [Palaeoclimate Model Intercomparison Project](https://pmip.lsce.ipsl.fr/). It is described in Zhao et al (2021) entitled "Workflow and tools to analyze the PMIP4-CMIP6 ensemble", which is under consideration for publication at Geoscientific Model Development at <https://doi.org/10.5194/gmd-2021-249>.
+This repository contains materials to lower the entry barriers to analyzing climate model simulations created for the [Palaeoclimate Model Intercomparison Project](https://pmip.lsce.ipsl.fr/). It is described in Zhao et al (2021) entitled "Workflow and tools to analyze the PMIP4-CMIP6 ensemble", which is under consideration for publication at Geoscientific Model Development at <https://doi.org/10.5194/gmd-2021-290>.
 
 There is information about what this repository contains and what you can do with at [ReadTheDocs](https://pmip-p2fvar-analyzer.readthedocs.io/en/latest/). However you're welcome to just poke around.
 
@@ -11,6 +11,6 @@ You are welcome to use this resource as a repository of summary data, and downlo
 
 We have invested some effort into making this resource be more than just place to hold data and code, but to also become a research tool in itself. You can download a docker image of this whole repository. This image not includes the code and data, but also bundles in all the required software needed to interact visually with the data through Jupyter and create your own plots of the data.
 
-The docker image is available from [Docker Hub](https://hub.docker.com/r/chrisbrierley/testing-pmip4_past2future). 
+The docker image is available from [Docker Hub](https://hub.docker.com/r/chrisbrierley/pmip-p2fvar-analyzer) - see [ReadTheDocs](https://pmip-p2fvar-analyzer.readthedocs.io/en/latest/) for instructions...
 
 [![DOI](https://zenodo.org/badge/380010629.svg)](https://zenodo.org/badge/latestdoi/380010629)
