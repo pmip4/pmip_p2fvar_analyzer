@@ -76,7 +76,13 @@ The change in temperature in 30o latitude bands over land, ocean and both are co
 
 ## NetCDF files
 
-The repository comes bundled with a compressed file (tar.gz). These files contain a small subset of the available fields- just the spatial annual mean, JJA and DJF surface temperature and precipitation. It can be uncompressed with `tar -xf PMIP4_tas_pr_data.tar.gz`.  
+The repository comes bundled with a compressed file (tar.gz). These files contain a small subset of the available fields- just the spatial annual mean, JJA and DJF surface temperature and precipitation. It can be uncompressed with `tar -xf PMIP4_tas_pr_data.tar.gz`. This only provides a small selection of the available fields - bundling everything makes for an unwielding repository. 
+
+You can download files with all the available variables in them from <http://www2.geog.ucl.ac.uk/~p2f-v/PMIP4-PMIP3_allfields.tar.gz>. To download unpack this data type the following in a terminal (such as is opened by JupyterLab in the docker image)
+
+> cd data_netcdf/
+> wget http://www2.geog.ucl.ac.uk/~p2f-v/PMIP4-PMIP3_allfields.tar.gz
+> tar -xf PMIP4-PMIP3_allfields.tar.gz
 
 ## Source of CMIP6-PMIP4 model output
 
