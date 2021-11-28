@@ -1,21 +1,17 @@
 # Step by step instructions to use this repository
 
-## Using as a data source
-
 We would prefer it if you sign into GitHub and fork the repository. This allows us to know who has used the data for our own interest. We can then also invite you to join the PMIP4 organization on GitHub as a research collaborator. To fork a repository, go to the [github page](https://github.com/pmip4/pmip_p2fvar_analyzer) of this repository, and click on the **Fork** icon.
 
 ![Fork button](fork.png)
- 
+
+## Using as a data source
 
 You should also just be able to download the individual files from GitHub directly. If the CSV files do not show a download link, you may need to copy and paste the text of the file instead.  
-
+![download_raw_data](download_raw_data.png)
 ## Using as a code and data source
 
 You can download all the code and a sample of data as a single zipped archive from GitHub. 
-
-We would prefer it if you sign into GitHub and fork the repository. This allows us to know who has used the data for our own interest. We can then also invite you to join the PMIP4 organization on GitHub as a research collaborator. To fork a repository, go to the [github page](https://github.com/pmip4/pmip_p2fvar_analyzer) of this repository, and click on the **Fork** icon.
-
-![Fork button](fork.png)
+![download_zip](download_zip.png)
 
 ## Using as a interactive application via Docker
 
