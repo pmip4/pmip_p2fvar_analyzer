@@ -1,4 +1,15 @@
-# Python Notebooks
+# Scripts
+
+A series of scripts have been developed to compute and visualize the CMIP-PMIP outputs that use the CVDP summary output files as inputs for ensemble analysis. The scripts was initially developed in NCL by [Brierley and Wainer (2018)](https://cp.copernicus.org/articles/14/1377/2018/) to complement the original package. In the build up to CMIP6, the decision was made to pivot this component of the workflow into Python. This allows for greater interactivity by users through notebooks and JupyterHubs, as well as better explanation of any example cases. 
+
+
+## NCL Scripts
+
+NCL is a programming language written by NCAR. It's got a load of helpful functions for climate related stuff, but doesn't really have a userbase beyond that. 
+
+
+
+## Python Notebooks
 
 Python scripts ahave been written as notebooks. Jupyter Notebook is a web-based tool that can show the documentation, develop and run codes, and display the input and output of computation. The choice of notebooks allows documentation and outputs to be stored with the scripts. Most of the analysing and plotting processes in python have been written into functions, and they are stored in different scripts according to their purposes respectively. Each notebook is named according to its purpose and usage. These scripts all start with a set of six functions to collect the names of available models that have the variable in the experiment and their corresponding directory and filenames respectively and return a dictionary storing these information as "’model_name’:’directory/filename’", in which function `identify_ensemble_members` requires running [`find_experiment_ensemble_members.bash`](https://github.com/pmip4/pmip_p2fvar_analyzer/tree/master/bin/find_experiment_ensemble_members.bash) in [`bin`](https://github.com/pmip4/pmip_p2fvar_analyzer/tree/master/bin) directory to identify available ensemble members (i.e. model names) whose simulations have the target variable in the experiment. 
 
