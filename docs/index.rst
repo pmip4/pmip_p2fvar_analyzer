@@ -11,7 +11,7 @@ The PMIP Analyzer by the Past2Future Variability Working Group
    :caption: Contents:
 
    introduction.md
-   scripts.md
    data.md
+   scripts.md
    running_with_docker.md
 
