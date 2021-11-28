@@ -11,7 +11,7 @@ The PMIP Analyzer by the Past2Future Variability Working Group
    :caption: Contents:
 
    introduction.md
-   python_tools.md
+   python.md
    ncl.md
    data.md
    running_with_docker.md
