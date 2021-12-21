@@ -138,5 +138,8 @@ dmypy.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
+# developing in vscode, and don't save those files
+.vscode/
+
 # Adding in .nc files - this will mean that any files created by the untarring of the bundled data are ignored.
 *.nc
