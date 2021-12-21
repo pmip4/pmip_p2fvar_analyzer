@@ -2,7 +2,7 @@
 FROM jupyter/minimal-notebook:latest
 
 # name your environment
-ARG conda_env=pmip4_past2future
+ARG conda_env=pmip_p2fvar_analyzer
 
 # alternatively, you can comment out the lines above and uncomment those below
 # if you'd prefer to use a YAML file present in the docker build context
